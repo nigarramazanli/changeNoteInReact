@@ -8,6 +8,8 @@ function ChangePText(){
      
 
      useEffect(()=>{
+        yanlis
+        
         axios.get('http://10.10.88.251:2040/Sale/All')
         .then(res=> setUsers(res.data))
         .catch(res=>console.log('It doesnt have error.'))
